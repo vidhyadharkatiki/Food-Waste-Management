@@ -1,0 +1,129 @@
+body{
+    margin:0;
+    border:0;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+#login{
+    height:480px;
+    width:400px;
+    position:relative;
+    top: 150px;
+    border-radius: 35px;
+    color: white;
+    background-color: rgba(60, 40, 120,0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    
+}
+#input{
+    width:400px;
+    height:25px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+#password{
+    width:400px;
+    height:25px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+#for-password{
+    display: flex;
+    flex-direction: row;
+}
+#sign-up{
+    margin:0 0 0 45px;
+}
+
+#email{
+    height:35px;
+    width:260px;
+    padding:0 15px 0 15px;
+    border-radius: 25px;
+    position: relative;
+    bottom: 20px;
+} 
+#pass{
+    height:35px;
+    width:260px;
+    padding:0 15px 0 15px;
+    border-radius: 20px;
+    position:relative;
+    bottom:15px;
+}
+
+
+#forget{
+
+    position: relative;
+    bottom:10px;
+    right:88px;
+    margin:5px;
+}
+#sign-up{
+    position: relative;
+    right:138px;
+    bottom:5px;
+}
+#log{
+    height:60px;
+    width:100px;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(255, 165, 0,0.85);
+    position: relative;
+    left: 85px;
+    top:25px;
+    border-radius: 15px;
+    margin:5px;
+    border:1px solid orange;
+    
+    
+}
+#submit{
+    position: relative;
+    bottom:10px;
+} 
+
+#log:hover{
+    background-color:rgba(255, 165, 0,1);
+}
+#log:active{
+    font-size:1.05rem;
+    border:1px solid black; 
+    color: white;
+}
+#data{
+    font-size: 2rem;
+    margin: 20px;
+    position: relative;
+    bottom:10px;
+}
+#forget:hover{
+
+    color:orange;
+    user-select: none;
+    cursor: pointer;
+}
+#sign-up:hover{
+
+    color:orange;
+    user-select: none;
+    cursor: pointer;
+}
+
+#incorrect{
+    color: red;
+}

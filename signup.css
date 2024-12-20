@@ -1,0 +1,165 @@
+body{
+    margin:0;
+    border:0;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+#login{
+    height:480px;
+    width:400px;
+    position:relative;
+    top: 150px;
+    border-radius: 35px;
+    color: white;
+    background-color: rgba(60, 40, 120,0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#input{
+    width:400px;
+    height:25px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+
+
+}
+#password{
+    width:400px;
+    height:25px;
+    margin: 15px;
+    margin-right: 10px;
+    
+    display: flex;
+    justify-content: center;
+}
+#for-password{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#email{
+    height:35px;
+    width:260px;
+    padding:0 15px 0 15px;
+    border-radius: 25px;
+    position: relative;
+    top:23px;
+    left: 8px;
+} 
+#otp1{
+    height:35px;
+    width:260px;
+    padding:0 15px 0 15px;
+    border-radius: 25px;
+    position: relative;
+    top:36.5px;
+}
+#pass1 {
+    height:35px;
+    width:260px;
+    padding:0 15px 0 15px;
+    border-radius: 20px;
+    position:relative;
+    top:30px;
+    right: 2px;
+}
+#pass{
+    height:35px;
+    width:260px;
+    padding:0 15px 0 15px;
+    border-radius: 20px;
+    position:relative;
+    top:35px;
+    left:8px;
+}
+
+#log{
+    font-size: 1.05rem;
+    height:60px;
+    width:100px;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(255, 165, 0,0.85);
+    position: relative;
+    left: 85px;
+    top:35px;
+    border-radius: 15px;
+    margin:5px;
+    border:1px solid orange ;
+}
+#feed{
+    width: 175px;
+    height: 10px;
+    color: red;
+    position: relative;
+    /* left: 85px; */
+    top:60px;
+
+}
+#verify{
+    width: 50px;
+    position: relative;
+    left: 90px;
+    top: 15px;
+}
+#otpg:hover{
+    color:orange;
+    cursor: pointer;
+}
+#otpg{
+    position: relative;
+    left: 105px;
+    top: 5px;
+}
+
+#log:hover{
+    background-color: rgba(255, 165, 0,1);
+}
+#log:active{
+    font-size:1.05rem;
+    border:1px solid black;
+    color:white; 
+}
+#data{
+    font-size: 2rem;
+    margin: 20px;
+    position: relative;
+    bottom:10px;
+}
+
+#verify:hover{
+
+    color:orange;
+    user-select: none;
+    cursor: pointer;
+}
+#sign-up{
+    font-size: 2rem;
+    position: relative;
+    top:10px;
+    right:25px;
+    margin : 0 0 0 45px;
+    
+
+}
+#sign-in{
+    font-size: 1rem;
+    position: relative;
+    right: 120px;
+    top:35px;
+}
+#sign-in:hover{
+    color:orange;
+    user-select: none;
+    cursor: pointer;
+}

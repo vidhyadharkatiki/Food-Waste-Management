@@ -1,0 +1,129 @@
+body{
+    margin:0;
+    border:0;
+    background-color: white;
+}
+#top{
+    height: 60px;
+    width:100%;
+    background-color: #3c2878f7 ;
+    color: white;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    position: fixed;
+}
+
+#Register{
+    margin-right: 2%;
+    user-select: none;
+}
+#contact{
+    margin-right: 5%;
+    user-select: none;
+}
+#About{
+    margin-right: 5%;
+    user-select: none;
+}
+#Home{
+    margin-right: 5%;
+    user-select: none;
+
+}
+
+
+#A1{
+    display: flex;
+    align-items: center;
+    height: 56px;
+    border-bottom: 4px solid orange;
+
+
+}
+
+#Register:hover{
+
+    color: orange;
+    cursor: pointer;
+}
+
+#contact:hover{
+
+    color: orange;
+    cursor: pointer;
+}
+
+#About:hover{
+
+    color: orange;
+    cursor: pointer;
+}
+
+#Home:hover{
+
+    color: orange;
+    cursor: pointer;
+}
+
+#Register:active{
+    font-size: 1rem;
+}
+#contact:active{
+    font-size: 1rem;
+}
+
+#About:active{
+    font-size: 1rem;
+}
+
+#Home:active{
+    font-size: 1rem;
+}
+
+#main{
+    background-color: #3c2878f7;
+    height: 729px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#pic{
+    height: 400px;
+    width: 400px;
+    background-image: url(about-us.png);
+    background-size: cover;
+    border: 5px solid darkorange;
+    border-radius: 50%;
+    position: relative;
+    /* bottom : 50px; */
+}
+
+#data{
+    position: relative;
+    top: 50px;
+    color: white;
+    font-size: 20px;
+    width: 1000px;
+}
+
+#FOOD{
+    color: white;
+    position:relative; 
+    left:35%;
+    bottom: 35px;
+    background-color: rgb(204, 133, 0); 
+    width: 300px;
+    height: 40px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    user-select: none;
+}
+#FOOD:hover{
+    cursor: pointer;
+}

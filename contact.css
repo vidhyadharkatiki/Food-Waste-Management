@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    border:0;
+    background-color: white;
+}
+#top{
+    height: 60px;
+    width:100%;
+    background-color: #3c2878f7 ;
+    color: white;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    position: fixed;
+}
+
+#Register{
+    margin-right: 2%;
+    user-select: none;
+}
+#contact{
+    margin-right: 5%;
+    user-select: none;
+}
+#About{
+    margin-right: 5%;
+    user-select: none;
+}
+#Home{
+    margin-right: 5%;
+    user-select: none;
+
+}
+
+
+#c1{
+    display: flex;
+    align-items: center;
+    height: 56px;
+    border-bottom: 4px solid orange;
+
+
+}
+
+#Register:hover{
+
+    color: orange;
+    cursor: pointer;
+}
+
+#contact:hover{
+
+    color: orange;
+    cursor: pointer;
+}
+
+#About:hover{
+
+    color: orange;
+    cursor: pointer;
+}
+
+#Home:hover{
+
+    color: orange;
+    cursor: pointer;
+}
+
+#Register:active{
+    font-size: 1rem;
+}
+#contact:active{
+    font-size: 1rem;
+}
+
+#About:active{
+    font-size: 1rem;
+}
+
+#Home:active{
+    font-size: 1rem;
+}
+
+#us{
+    height: 729px;
+    width: 100%;
+    background-color: #3c2878f7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#pic{
+    height: 315px;
+    width: 300px;
+    background-color: aliceblue;
+    background-image: url(icon1.jpg);
+    background-size: cover
+}
+
+
+#name{
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+}
+#email{
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+}

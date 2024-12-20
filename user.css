@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    border: 0;
+}
+#top{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: #3c2878f7;
+}
+#logout{
+    color: white;
+    font-size: 17px;
+    margin-right: 20px;
+}
+#logout:hover{
+    color: orange;
+    cursor: pointer;
+}
+#main{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+#picture{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 500px;
+    width: 100%;
+}
+#cross{
+    position: relative;
+    /* bottom: 74px; */
+    /* top: 76px; */
+    left: 202.5px;
+    font-size: 25px;
+    position: relative;
+    color: white;
+}
+#icon{
+    position: relative;
+    left: 12.5px;
+    top: 10px;
+}
+#cross:hover{
+    background-color:red;
+    /* transition: all 0.3s linear 0.2s; */
+}
+#cross:active{
+    transition: none;
+}
+#feed{
+    color: red;
+    position: relative;
+    /* bottom: 10px; */
+    height: 20px;
+    /* top: 60px; */
+    /* visibility: hidden; */
+}
+
+#donate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 300px;
+    position: relative;
+    left: 5%;
+    background-color: #3c2878f7;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all 0.4s linear 0.2s;
+}
+
+#wish{
+    font-size: 18px;
+}
+
+#recive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 300px;
+    background-color: #3c2878f7;
+    position: relative;
+    right: 5%;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all 0.4s linear 0.2s;
+
+}
+
+#selection{
+    border-radius: 10px;
+    height: 450px;
+    width: 325px;
+    background-color: #3c2878f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    position: relative;
+    bottom: 170px;
+    border: 2px solid orange;
+
+    visibility: hidden;
+}
+#choose{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-size: 17px;
+}
+
+#cancel{
+    background-color: orange;
+    height: 50px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#done{
+    background-color: orange;
+    height: 50px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#donate:hover{
+    color: orange;
+    cursor: pointer;
+    transform: translateY(-10px);
+    border: 2.5px solid orange ;
+}
+#recive:hover{
+    color: orange;
+    cursor: pointer;
+    transform: translateY(-10px);
+    border: 2.5px solid orange ;
+}
+#donatepage{
+    height: 550px;
+    width: 450px;
+    position: relative;
+    left: 35%;
+    bottom: 725px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c2878f7;
+    z-index: 1;
+    visibility: hidden;
+}
+
+#cur-location{
+    height: 35px;
+}
+
+#data{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 40px;
+    position: relative;
+    bottom: 15px;
+    top:74px;
+}
+#orders{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    margin-bottom: 35px;
+    position:relative;
+    top:74px;
+}
+#orders1{
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+
+}
+#location{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    margin-bottom: 35px;
+    position:relative;
+    top:74px;
+}
+#location1{
+    height: 35px;
+    width: 300px;
+    border-radius: 5px ;
+
+}
+#contact{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    margin-bottom: 35px;
+    position:relative;
+    top:74px;
+}
+#contact1{
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+
+}
+
+#submit{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 160px;
+    width: 100px;
+    background-color: rgba(255, 165, 0,1);
+    border-radius: 10px;
+    color: white;
+    margin-left: 150px;
+    position: relative;
+    /* top: 10px; */
+    top: 100px;
+}
+
+#submit{
+    cursor: pointer;
+    user-select: none;
+}
+
+#call{
+    color: orange;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    font-size: 36px;
+    font-weight: bolder ;
+}
